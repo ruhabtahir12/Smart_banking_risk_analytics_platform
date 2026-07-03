@@ -21,7 +21,7 @@ st.write("Group a customer into one of the discovered spending-behavior segments
 # ----------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(BASE_DIR)
-MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "customer_segmentation_model.pkl")
+MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "customer_segmentation_model1.pkl")
 SCALER_PATH = os.path.join(PROJECT_ROOT, "models", "segmentation_scaler.pkl")
 
 @st.cache_resource
