@@ -84,7 +84,8 @@ def build_cluster_labels(_model, _scaler):
 
     return labels, profile
 
-
+st.write("DEBUG - model type:", type(model))
+st.write("DEBUG - model attributes:", dir(model))
 CLUSTER_LABELS, CLUSTER_PROFILE = build_cluster_labels(model, scaler)
 
 
